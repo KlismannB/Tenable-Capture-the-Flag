@@ -1,7 +1,5 @@
 # Doc Jones Cybernetic Prostheses Imporium
 
-===============
-
 > Klismann Barros | February 20, 2021
 
 --------------------------
