@@ -14,54 +14,54 @@ nmap -sC -sV -Pn -A 167.71.246.232
 
 ## Nmap Output
 
-Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
-Starting Nmap 7.91 ( https://nmap.org ) at 2021-02-20 13:10 EST
-Nmap scan report for 167.71.246.232
-Host is up (0.11s latency).
-Not shown: 984 closed ports
-PORT      STATE    SERVICE        VERSION
-22/tcp    open     ssh            OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)
-| ssh-hostkey: 
-|   3072 4f:6f:2f:d8:e9:87:ea:1d:57:aa:c7:cd:07:2e:bb:26 (RSA)
-|   256 bb:b7:e6:09:dd:b8:97:0b:4f:ff:08:44:52:b4:1b:4b (ECDSA)
-|_  256 ec:5f:97:52:63:99:73:86:b1:92:66:88:f9:4a:86:08 (ED25519)
-25/tcp    filtered smtp
-70/tcp    filtered gopher
-80/tcp    open     http           Apache httpd 2.4.41 ((Ubuntu))
-| http-robots.txt: 1 disallowed entry 
-|_/admin/
-|_http-server-header: Apache/2.4.41 (Ubuntu)
-|_http-title: Doc Jones Cybernetic Prostheses Imporium
-84/tcp    filtered ctf
-135/tcp   filtered msrpc
-139/tcp   filtered netbios-ssn
-443/tcp   open     ssl/http       Apache httpd 2.4.41 ((Ubuntu))
-| http-robots.txt: 1 disallowed entry 
-|_/admin/
-|_http-server-header: Apache/2.4.41 (Ubuntu)
-|_http-title: Doc Jones Cybernetic Prostheses Imporium
-| ssl-cert: Subject: commonName=flag{selfsignedcert}/organizationName=Doc Jones/stateOrProvinceName=Florida/countryName=US
-| Not valid before: 2021-01-11T22:05:19
-|_Not valid after:  2022-01-11T22:05:19
-| tls-alpn: 
-|_  http/1.1
-445/tcp   filtered microsoft-ds
-593/tcp   filtered http-rpc-epmap
-2323/tcp  filtered 3d-nfsd
-3128/tcp  filtered squid-http
-8080/tcp  open     http           nginx 1.18.0 (Ubuntu)
-|_http-open-proxy: Proxy might be redirecting requests
-| http-robots.txt: 1 disallowed entry 
-|_/admin/
-|_http-server-header: nginx/1.18.0 (Ubuntu)
-|_http-title: Doc Jones Cybernetic Prostheses Imporium
-9898/tcp  filtered monkeycom
-12345/tcp filtered netbus
-31337/tcp filtered Elite
-Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+	Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
+	Starting Nmap 7.91 ( https://nmap.org ) at 2021-02-20 13:10 EST
+	Nmap scan report for 167.71.246.232
+	Host is up (0.11s latency).
+	Not shown: 984 closed ports
+	PORT      STATE    SERVICE        VERSION
+	22/tcp    open     ssh            OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)
+	| ssh-hostkey: 
+	|   3072 4f:6f:2f:d8:e9:87:ea:1d:57:aa:c7:cd:07:2e:bb:26 (RSA)
+	|   256 bb:b7:e6:09:dd:b8:97:0b:4f:ff:08:44:52:b4:1b:4b (ECDSA)
+	|_  256 ec:5f:97:52:63:99:73:86:b1:92:66:88:f9:4a:86:08 (ED25519)
+	25/tcp    filtered smtp
+	70/tcp    filtered gopher
+	80/tcp    open     http           Apache httpd 2.4.41 ((Ubuntu))
+	| http-robots.txt: 1 disallowed entry 
+	|_/admin/
+	|_http-server-header: Apache/2.4.41 (Ubuntu)
+	|_http-title: Doc Jones Cybernetic Prostheses Imporium
+	84/tcp    filtered ctf
+	135/tcp   filtered msrpc
+	139/tcp   filtered netbios-ssn
+	443/tcp   open     ssl/http       Apache httpd 2.4.41 ((Ubuntu))
+	| http-robots.txt: 1 disallowed entry 
+	|_/admin/
+	|_http-server-header: Apache/2.4.41 (Ubuntu)
+	|_http-title: Doc Jones Cybernetic Prostheses Imporium
+	| ssl-cert: Subject: commonName=flag{selfsignedcert}/organizationName=Doc Jones/stateOrProvinceName=Florida/countryName=US
+	| Not valid before: 2021-01-11T22:05:19
+	|_Not valid after:  2022-01-11T22:05:19
+	| tls-alpn: 
+	|_  http/1.1
+	445/tcp   filtered microsoft-ds
+	593/tcp   filtered http-rpc-epmap
+	2323/tcp  filtered 3d-nfsd
+	3128/tcp  filtered squid-http
+	8080/tcp  open     http           nginx 1.18.0 (Ubuntu)
+	|_http-open-proxy: Proxy might be redirecting requests
+	| http-robots.txt: 1 disallowed entry 
+	|_/admin/
+	|_http-server-header: nginx/1.18.0 (Ubuntu)
+	|_http-title: Doc Jones Cybernetic Prostheses Imporium
+	9898/tcp  filtered monkeycom
+	12345/tcp filtered netbus
+	31337/tcp filtered Elite
+	Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
-Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-Nmap done: 1 IP address (1 host up) scanned in 34.73 seconds
+	Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+	Nmap done: 1 IP address (1 host up) scanned in 34.73 seconds
 
 ### Analising the output
 
