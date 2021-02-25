@@ -98,7 +98,7 @@ curl http://167.71.246.232/
 
 ### Analising the website
 
-`
+```HTML
 	<html>
 	<head>
 	<style>
@@ -132,7 +132,7 @@ curl http://167.71.246.232/
 	<!-- source flag : flag{best_implants_ever} -->
 
 	</html>
-`
+```
 
 ###### And we got another flag, we can submit that at: Source of All Evil (25 pts)
 
